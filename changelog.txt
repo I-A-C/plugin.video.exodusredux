@@ -1,5 +1,5 @@
 Exodus Redux Changelog:
-1.0.5 - Added German and Polish languages and providers
+1.0.5 - Added German and Polish language support
 1.0.4 - 
 1.0.3 - 
 1.0.2 - 
