@@ -712,7 +712,7 @@ msgid "Configure Debrid Services in ResolveURL Settings."
 msgstr ""
 
 msgctxt "#32540"
-msgid "ResolveURL Settings"
+msgid "[B]RESOLVEURL[/B] : Settings"
 msgstr ""
 
 msgctxt "#32541"

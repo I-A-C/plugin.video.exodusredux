@@ -719,8 +719,8 @@ msgid "Configure Debrid Services in ResolveURL Settings."
 msgstr "Skonfiguruj usługi Debrid w Ustawieniach ResolveURL."
 
 msgctxt "#32540"
-msgid "ResolveURL Settings"
-msgstr "Ustawienia ResolveURL"
+msgid "[B]RESOLVEURL[/B] : Settings"
+msgstr "Ustawienia [B]RESOLVEURL[/B]"
 
 msgctxt "#32541"
 msgid "Library"
