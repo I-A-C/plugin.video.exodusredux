@@ -10,11 +10,9 @@
         <setting id="api.language" type="select" label="32316" values="AUTO|Bulgarian|Chinese|Croatian|Czech|Danish|Dutch|English|Finnish|French|German|Greek|Hebrew|Hungarian|Italian|Japanese|Korean|Norwegian|Polish|Portuguese|Romanian|Russian|Serbian|Slovak|Slovenian|Spanish|Swedish|Thai|Turkish|Ukrainian" default="AUTO" />
         <setting id="providers.lang" type="select" label="32360" values="English|German|German+English|French|French+English|Polish|Polish+English|Korean|Korean+English|Russian|Russian+English|Spanish|Spanish+English|Italian|Italian+English|Greek|Greek+English" default="English" />
         <setting id="fanart" type="bool" label="32318" default="true" />
-        <setting id="showunaired" type="bool" label="32570" default="true" />
         <setting id="hidecinema" type="bool" label="32571" default="false" />
         <setting type="lsep" label="32319" />
         <setting id="movie.widget" type="enum" label="32320" lvalues="32302|32321|32322|32323|32324|32580" default="1" />
-        <setting id="prgr.sortorder" type="enum" label="32584" lvalues="32585|32586" default="1" visible="!eq(-13,)" />
         <setting id="lists.widget" type="enum" label="32329" lvalues="32302|32301" default="1" />
         <setting type="lsep" label="Auto Trakt Collections Syncing" />
         <setting id="autoTraktOnStart" type="bool" label="Sync on Kodi Start" default="False" />
@@ -22,10 +20,13 @@
         <setting type="lsep" label="0 Value Disables Scheduling" />
     </category>
     <category label="TV Shows">
+        <setting id="trakt.user" type="text" default="" visible="false" />
         <setting id="flatten.tvshows" type="bool" label="32317" default="false" />
-        <setting id="tv.widget.alt" type="enum" label="32325" lvalues="32302|32326|32327|32328" default="2" visible="!eq(-11,)" />
-        <setting id="tv.widget" type="enum" label="32325" lvalues="32302|32326" default="1" visible="eq(-12,)" />
+        <setting id="tv.widget.alt" type="enum" label="32325" lvalues="32302|32326|32327|32328" default="2" visible="!eq(-2,)" />
+        <setting id="tv.widget" type="enum" label="32325" lvalues="32302|32326" default="1" visible="eq(-3,)" />
+        <setting id="prgr.sortorder" type="enum" label="32584" lvalues="32585|32586" default="1" visible="!eq(-4,)" />
         <setting id="tv.specials" type="bool" label="Include Special Episodes" default="false" />
+        <setting id="showunaired" type="bool" label="32570" default="true" />
     </category>
     <category label="32330">
         <setting id="hosts.mode" type="enum" label="32331" lvalues="32332|32333|32334" default="1" />
@@ -71,9 +72,10 @@
         <setting id="tm.user" type="text" option="hidden" label="32309" default="3b3eccd1c6bc0f679223fdbd7cf0d06d" />
         <setting type="sep" />
         <setting type="lsep" label="Trakt" />
-        <setting id="trakt.user" type="action" label="32306" option="close" action="RunPlugin(plugin://plugin.video.exodusredux/?action=authTrakt)" />
+        <setting id="trakt.auth" type="action" label="32306" option="close" action="RunPlugin(plugin://plugin.video.exodusredux/?action=authTrakt)" />
         <setting id="trakt.token" type="text" visible="false" label="" default="" />
         <setting id="trakt.refresh" type="text" visible="false" label="" default="" />
+        <setting id="trakt.user" label="32303" type="text" default="" visible="true" enable="false" />
         <setting type="sep" />
         <setting type="lsep" label="IMDb" />
         <setting id="imdb.user" type="text" label="32303" default="" />
@@ -137,7 +139,7 @@
         <setting id="library.update" type="bool" label="32547" default="true" />
         <setting id="library.check" type="bool" label="32548" default="true" />
         <setting type="sep" />
-        <setting id="library.importdelay" type="bool" label="24HR delay before import" default="true" />
+        <setting id="library.importdelay" type="bool" label="$NUMBER[24]HR delay before import" default="true" />
         <setting id="library.check_movie" type="bool" label="32549" default="false" />
         <setting id="library.check_episode" type="bool" label="32550" default="false" />
         <setting id="library.include_unknown" type="bool" label="32565" default="true" />
