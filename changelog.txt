@@ -1,4 +1,7 @@
 Exodus Redux Changelog:
+1.0.7
+- Trakt auth through settings fix for Leia and other minor settings adjustments
+- "Info!!" Popup notification on first run or version change
 1.0.6 - Lambda Scrapers set as default provider
 1.0.5 - Added German and Polish language support
 1.0.4 - 
