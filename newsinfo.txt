@@ -1,7 +1,7 @@
 [B]Updates:[/B]
 ------------------------
 [B]Important!![/B] - Due to a new Trakt.tv API, the "Exodus Redux" addon will need to be reauthorized.
-[B]Nov 1?, 2018[/B]
+[B]Nov 16, 2018[/B]
 [B]plugin.video.exodusredux - 1.0.7[/B]
 - Trakt auth through settings fix for Leia and other minor settings adjustments
 - "Info!!" Popup notification on first run or version change
