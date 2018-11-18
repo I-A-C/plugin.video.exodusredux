@@ -1,15 +1,26 @@
-[B]Last Update:[/B]
-[B]Nov 13, 2018 - plugin.video.exodusredux - 1.0.6[/B]
+[B]Updates:[/B]
+------------------------
+[B]Important!![/B] - Due to a new Trakt.tv API, the "Exodus Redux" addon will need to be reauthorized.
+[B]Nov 1?, 2018[/B]
+[B]plugin.video.exodusredux - 1.0.7[/B]
+- Trakt auth through settings fix for Leia and other minor settings adjustments
+- "Info!!" Popup notification on first run or version change
+[B]script.module.exodusredux - 1.0.9[/B]
+- New Trakt.tv API key
+[B]script.module.lambdascrapers - 1.8.0[/B]
+- Scraper updates
+------------------------
+[B]Nov 13, 2018[/B]
+[B]plugin.video.exodusredux - 1.0.6[/B]
 - Lambda Scrapers set as default provider
 - Resume fix for Kodi 18
-[B]Nov 13, 2018 - script.module.exodusredux - 1.0.8[/B]
+[B]script.module.exodusredux - 1.0.8[/B]
 - Resume fix for Kodi 18
 - Removed Channels
-[B]Nov 13, 2018 - script.module.lambdascrapers - 1.7.0[/B]
+[B]script.module.lambdascrapers - 1.7.0[/B]
 - Removed nonperforming scraper from defaults
 - Lambdascrapers module as default provider
 - Scraper fixes
-
 ------------------------------------------------------------------------------------------------
 [B]Info!![/B]
 
