@@ -973,3 +973,7 @@ msgstr ""
 msgctxt "#32619"
 msgid "Addon Log"
 msgstr ""
+
+msgctxt "#32620"
+msgid "Documentary"
+msgstr "film dokumentalny"
