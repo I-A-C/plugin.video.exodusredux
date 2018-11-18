@@ -63,6 +63,10 @@ content = params.get('content')
 windowedtrailer = params.get('windowedtrailer')
 windowedtrailer = int(windowedtrailer) if windowedtrailer in ("0","1") else 0
 
+docu_category = params.get('docuCat')
+
+docu_watch = params.get('docuPlay')
+
 
 if action == None:
     from resources.lib.indexers import navigator
@@ -465,3 +469,12 @@ elif action == 'service':
 elif action == 'lambdaScraperChoice':
     from resources.lib.modules import control
     control.lambdaScraperChoice()
+
+elif action == 'docuHeaven':
+    from resources.lib.indexers import docu
+    if not docu_category == None:
+        docu.documentary().docu_list(docu_category)
+    elif not docu_watch == None:
+        docu.documentary().docu_play(docu_watch)
+    else:
+        docu.documentary().root()   

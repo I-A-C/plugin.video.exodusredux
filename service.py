@@ -36,7 +36,7 @@ try:
     log_utils.log('####### CURRENT EXODUS REDUX VERSIONS REPORT ######################', log_utils.LOGNOTICE)
     log_utils.log('### EXODUS REDUX PLUGIN VERSION: %s ###' % str(AddonVersion), log_utils.LOGNOTICE)
     log_utils.log('### EXODUS REDUX SCRIPT VERSION: %s ###' % str(ModuleVersion), log_utils.LOGNOTICE)
-    #log_utils.log('### EXODUS REDUX REPOSITORY VERSION: %s ###' % str(RepoVersion), log_utils.LOGNOTICE)
+    log_utils.log('### EXODUS REDUX REPOSITORY VERSION: %s ###' % str(RepoVersion), log_utils.LOGNOTICE)
     log_utils.log('###############################################################', log_utils.LOGNOTICE)
 except:
     log_utils.log('######################### EXODUS REDUX ############################', log_utils.LOGNOTICE)
