@@ -298,11 +298,11 @@ msgstr "Eintrag zur Warteschlange hinzufügen"
 
 msgctxt "#32066"
 msgid "Watched in Exodus Redux"
-msgstr "In Placenta Angesehen"
+msgstr "In Exodus Redux Angesehen"
 
 msgctxt "#32067"
 msgid "Unwatched in Exodus Redux"
-msgstr "In Placenta Ungesehen"
+msgstr "In Exodus Redux Ungesehen"
 
 msgctxt "#32068"
 msgid "Watched in Trakt"
@@ -918,43 +918,83 @@ msgstr "Quellen werden vorbereitet"
 
 msgctxt "#32601"
 msgid "Total"
-msgstr ""
+msgstr "Gesamt"
 
 msgctxt "#32602"
 msgid "Waiting for"
-msgstr ""
+msgstr "Warten auf"
 
 msgctxt "#32603"
 msgid "New search..."
-msgstr ""
+msgstr "Neue Suche..."
 
 msgctxt "#32604"
 msgid "[B]EXODUS REDUX[/B] : Clear search history..."
-msgstr ""
+msgstr "[B]EXODUS REDUX[/B]: Suchhistorie löschen ..."
 
 msgctxt "#32605"
 msgid "Click to clear search history"
-msgstr ""
+msgstr "Klicken Sie hier, um den Suchverlauf zu löschen"
 
 msgctxt "#32606"
 msgid "Prem"
-msgstr ""
+msgstr "Bezahlt"
 
 msgctxt "#32607"
 msgid "Normal"
-msgstr ""
+msgstr "Kostenlos"
 
 msgctxt "#32608"
-msgid "Auto Syncing Trakt Library"
+msgid "Unaired Season/Episode Color"
+msgstr "Unaired Season / Episodenfarbe"
+
+msgctxt "#32609"
+msgid "[B][COLOR red]ResolveURL[/COLOR][/B] Settings"
+msgstr "[B][COLOR red]ResolveURL[/COLOR][/B] Settings"
+
+msgctxt "#32610"
+msgid "Kids Corner"
+msgstr ""
+
+msgctxt "#32611"
+msgid "Fitness Zone"
+msgstr ""
+
+msgctxt "#32612"
+msgid "Legends of Music"
+msgstr ""
+
+msgctxt "#80000"
+msgid "Kings Of Horror"
+msgstr ""
+
+msgctxt "#80001"
+msgid "Kung Fu"
+msgstr ""
+
+msgctxt "#80002"
+msgid "Urban"
+msgstr ""
+
+msgctxt "#80003"
+msgid "MST3K / Sci-Fi"
+msgstr ""
+
+msgctxt "#80004"
+msgid "Movie Time"
 msgstr ""
 
 msgctxt "#32613"
 msgid "[B]EXODUS REDUX[/B] : Clear All Cache..."
-msgstr ""
+msgid "[B]EXODUS REDUX[/B] : Alle Cache löschen ..."
 
 msgctxt "#32614"
 msgid "[B]EXODUS REDUX[/B] : Clear Meta Cache..."
-msgstr ""
+msgstr "[B]EXODUS REDUX[/B] : Meta-Cache löschen ..."
+
+msgctxt "#32615"
+msgid "Check Host for Valid URL"
+msgstr "Überprüfen Sie den Host auf gültige URL"
 
 msgctxt "#32616"
 msgid "Debugging"
@@ -962,12 +1002,84 @@ msgstr ""
 
 msgctxt "#32617"
 msgid "Debug Log"
-msgstr ""
+msgstr "Austestungsprotokoll"
 
 msgctxt "#32618"
 msgid "Kodi Log"
-msgstr ""
+msgstr "Was ist Log"
 
 msgctxt "#32619"
 msgid "Addon Log"
 msgstr ""
+
+msgctxt "#32620"
+msgid "Podcasts"
+msgstr ""
+
+msgctxt "#32621"
+msgid "Navigation"
+msgstr ""
+
+msgctxt "#32622"
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+msgctxt "#32623"
+msgid "Reviews and Trailers"
+msgstr "Bewertungen und Anhänger"
+
+msgctxt "#32624"
+msgid "P[COLOR red]o[/COLOR]dcast[COLOR red]One[/COLOR]"
+msgstr ""
+
+msgctxt "#32625"
+msgid "Featured Podcasts"
+msgstr ""
+
+msgctxt "#32626"
+msgid "New Podcasts"
+msgstr ""
+
+msgctxt "#32627"
+msgid "Categories"
+msgstr "Kategorien"
+
+msgctxt "#32628"
+msgid "[B]SETTINGS[/B] : Navigation"
+msgstr "[B]SETTINGS[/B] : Navigation"
+
+msgctxt "#32629"
+msgid "PodBay"
+msgstr ""
+
+msgctxt "#32630"
+msgid "Show Season 0 in Browse Seasons"
+msgstr "Staffel 0 in Browse Seasons anzeigen"
+
+msgctxt "#32631"
+msgid "Documentaries"
+msgstr "Dokumentarfilme"
+
+msgctxt "#32634"
+msgid "Torrent Source Identifier Color"
+msgstr "Torrent Source Identifier Farbe"
+
+msgctxt "#32635"
+msgid "Torrent Support (Requires Real-Debrid or Premiumize)"
+msgstr "Torrent-Support (erfordert echte Rückstände oder Premium-Unterstützung)"
+
+msgctxt "#32636"
+msgid "Enable Torrent Scrapers"
+msgstr "Aktivieren Sie Torrent Scrapers"
+
+msgctxt "#32637"
+msgid "Real-Debrid Torrent Settings"
+msgstr "Real-Debrid Torrent-Einstellungen"
+
+msgctxt "#32638"
+msgid "Minimum Seeders"
+msgstr "Minimale Sämaschine"
+
+msgctxt "#32639"
+msgid "Sort By Torrent/Premium"
+msgstr "Nach Torrent / Premium sortieren"

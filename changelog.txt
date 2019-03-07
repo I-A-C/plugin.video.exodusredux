@@ -1,4 +1,6 @@
 Exodus Redux Changelog:
+2.0.0
+- Rebased
 1.0.7
 - Trakt auth through settings fix for Leia and other minor settings adjustments
 - "Info!!" Popup notification on first run or version change

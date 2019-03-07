@@ -574,22 +574,6 @@ msgctxt "#32360"
 msgid "Providers Language"
 msgstr "Język źródeł"
 
-msgctxt "#32363"
-msgid "HEVC"
-msgstr ""
-
-msgctxt "#32372"
-msgid "When playback ends..."
-msgstr ""
-
-msgctxt "#32373"
-msgid "Force container refresh"
-msgstr ""
-
-msgctxt "#32374"
-msgid "Enable Debug"
-msgstr ""
-
 msgctxt "#32401"
 msgid "No stream available"
 msgstr "Brak dostępnych źródeł"
@@ -939,37 +923,102 @@ msgid "Click to clear search history"
 msgstr "Naciśnij aby wyczyścić historię"
 
 msgctxt "#32606"
-msgid "[COLOR=orange]Paid[/COLOR]"
-msgstr "[COLOR=orange]Paid[/COLOR]"
+msgid "Prem"
+msgstr "Prem"
 
 msgctxt "#32607"
-msgid "[COLOR=orange]Free[/COLOR]"
-msgstr "[COLOR=orange]Free[/COLOR]"
+msgid "Normal"
+msgstr "Normalna"
 
 msgctxt "#32608"
-msgid "Auto Syncing Trakt Library"
-msgstr ""
+msgid "Unaired Season/Episode Color"
+msgstr "Unaired Season / Episode Color"
+
+msgctxt "#32609"
+msgid "[B][COLOR red]ResolveURL[/COLOR][/B] Settings"
+msgstr "[B][COLOR red]ResolveURL[/COLOR][/B] Ustawienia"
 
 msgctxt "#32613"
 msgid "[B]EXODUS REDUX[/B] : Clear All Cache..."
-msgstr ""
+msgid "[B]EXODUS REDUX[/B] : Wyczyść całą pamięć podręczną..."
 
 msgctxt "#32614"
 msgid "[B]EXODUS REDUX[/B] : Clear Meta Cache..."
-msgstr ""
+msgstr "[B]EXODUS REDUX[/B] : Wyczyść pamięć podręczną Meta ..."
+
+msgctxt "#32615"
+msgid "Check Host for Valid URL"
+msgstr "Sprawdź Host pod prawidłowym adresem URL"
 
 msgctxt "#32616"
 msgid "Debugging"
-msgstr ""
+msgstr "Debugowanie"
 
 msgctxt "#32617"
 msgid "Debug Log"
-msgstr ""
+msgstr "Dziennik debugowania"
 
 msgctxt "#32618"
 msgid "Kodi Log"
-msgstr ""
+msgstr "Kodi Log"
 
 msgctxt "#32619"
 msgid "Addon Log"
+msgstr "Addon Log"
+
+
+msgctxt "#32621"
+msgid "Navigation"
+msgstr "Nawigacja"
+
+msgctxt "#32622"
+msgid "Main Menu"
+msgstr "Menu główne"
+
+msgctxt "#32623"
+msgid "Reviews and Trailers"
+msgstr "Recenzje i zwiastuny"
+
+msgctxt "#32627"
+msgid "Categories"
+msgstr "Kategorie"
+
+msgctxt "#32628"
+msgid "[B]SETTINGS[/B] : Navigation"
+msgstr "[B]SETTINGS[/B] : Nawigacja"
+
+msgctxt "#32629"
+msgid "PodBay"
 msgstr ""
+
+msgctxt "#32630"
+msgid "Show Season 0 in Browse Seasons"
+msgstr "Pokaż sezon 0 w sezonach przeglądania"
+
+msgctxt "#32631"
+msgid "Documentaries"
+msgstr "Filmy dokumentalne"
+
+msgctxt "#32634"
+msgid "Torrent Source Identifier Color"
+msgstr "Kolor identyfikatora źródła torrenta"
+
+msgctxt "#32635"
+msgid "Torrent Support (Requires Real-Debrid or Premiumize)"
+msgstr "Obsługa Torrent (wymaga Real-Debrid lub Premiumize)"
+
+msgctxt "#32636"
+msgid "Enable Torrent Scrapers"
+msgstr "Włącz Skrobaczki Torrent"
+
+msgctxt "#32637"
+msgid "Real-Debrid Torrent Settings"
+msgstr "Real-Debrid Torrent Settings"
+
+msgctxt "#32638"
+msgid "Minimum Seeders"
+msgstr "Minimalna liczba siewników"
+
+msgctxt "#32639"
+msgid "Sort By Torrent/Premium"
+msgstr "Sortuj według Torrent / Premium"
