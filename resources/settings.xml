@@ -4,7 +4,7 @@
         <setting id="appearance.alt" type="action" label="32311" default="-" option="close" action="RunPlugin(plugin://plugin.video.exodusredux/?action=artwork)" visible="!System.HasAddon(script.exodusredux.artwork)" />
         <setting id="appearance.1" type="select" label="32311" values="Exodus|Covenant|Incursion|Stealth|Exuary" default="Exodus" visible="System.HasAddon(script.exodusredux.artwork)" />
         <setting id="scrapers.timeout.1" type="slider" label="32312" default="30" range="10,60" option="int" />
-        <setting id="trakt.user" type="text" default="" visible="false" />
+        <setting id="trakt.user" type="text" default="" label="Trakt User:" enable="false" visible="true" />
         <setting id="indicators.alt" type="enum" label="32313" lvalues="32314|32315" default="1" visible="!eq(-1,)" />
         <setting id="indicators" type="enum" label="32313" lvalues="32314" default="0" visible="eq(-2,)" />
         <setting id="api.language" type="select" label="32316" values="English|German|Polish|Spanish|German+English|Polish+English|Spanish+English" default="English" />
@@ -15,22 +15,28 @@
         <setting id="showunaired" type="bool" label="32570" default="true" />
         <setting id="unaired.identify" type="enum" label="32608" lvalues="32589|32590|32591|32592|32593|32594|32595|32596|32597|32598" default="1" />
         <setting type="lsep" label="32319" />
-        <setting id="movie.widget" type="enum" label="32320" lvalues="32302|32321|32322|32323|32324|32580" default="1" />
+        <setting id="movie.widget" type="enum" label="32320" lvalues="32302|32321|32322|32323|32324|32580" default="4" />
         <setting id="tv.widget" type="enum" label="32325" lvalues="32302|32326" default="1" />
-        <setting id="tv.widget.alt" type="enum" label="32325" lvalues="32302|32326|32327|32328" default="2" />
-        <setting id="prgr.sortorder" type="enum" label="32584" lvalues="32585|32586" default="1" />
-        <setting id="lists.widget" type="enum" label="32329" lvalues="32302|32301" default="1" />
+        <setting id="tv.widget.alt" type="enum" label="32325" lvalues="32302|32326|32327|32328" default="2" visible="!eq(-13,)" />
+        <setting id="prgr.sortorder" type="enum" label="32584" lvalues="32585|32586" default="1" visible="!eq(-14,)" />
+        <setting id="lists.widget" type="enum" label="32329" lvalues="32302|32301" default="0" visible="!eq(-15,)" />
+        <setting type="lsep" label="Auto Trakt Collections Syncing" />
         <setting id="autoTraktOnStart" type="bool" label="Sync on Kodi Start" default="False" />
         <setting id="schedTraktTime" type="slider" label="Schedule Updates Every - Hour/s" default="0" range="0,24" option="int" />
         <setting type="lsep" label="0 Value Disables Scheduling" />
     </category>
     <category label="32621">
+        <setting type="lsep" label="32622" />
+        <setting id="navi.docu" type="bool" label="32631" default="true" />
+        <setting id="navi.channels" type="bool" label="32007" default="false" />
+        <setting type="sep" />
         <setting type="lsep" label="32001" />
         <setting id="navi.moviegenre" type="bool" label="32011" default="true" />
         <setting id="navi.movieyears" type="bool" label="32012" default="true" />
         <setting id="navi.moviepersons" type="bool" label="32013" default="true" />
         <setting id="navi.movielanguages" type="bool" label="32014" default="true" />
-        <setting id="navi.moviecerts" type="bool" label="32015" default="false" />
+        <setting id="navi.moviecerts" type="bool" label="32015" default="true" />
+        <setting id="navi.moviefeat" type="bool" label="32035" default="true" />
         <setting id="navi.movietrending" type="bool" label="32017" default="true" />
         <setting id="navi.moviepopular" type="bool" label="32018" default="true" />
         <setting id="navi.movieviews" type="bool" label="32019" default="true" />
@@ -42,7 +48,8 @@
         <setting id="navi.tvGenres" type="bool" label="32011" default="true" />
         <setting id="navi.tvNetworks" type="bool" label="32016" default="true" />
         <setting id="navi.tvLanguages" type="bool" label="32014" default="true" />
-        <setting id="navi.tvCertificates" type="bool" label="32015" default="false" />
+        <setting id="navi.tvCertificates" type="bool" label="32015" default="true" />
+        <setting id="navi.tvfeat" type="bool" label="32035" default="true" />
         <setting id="navi.tvTrending" type="bool" label="32017" default="true" />
         <setting id="navi.tvPopular" type="bool" label="32018" default="true" />
         <setting id="navi.tvRating" type="bool" label="32023" default="true" />
@@ -80,8 +87,8 @@
         <setting id="crefresh" type="bool" label="32373" default="false" />
     </category>
     <category label="32345">
-        <setting id="module.provider" type="text" label="Powered by" default="Lambda Scrapers" visible="true" enable="false" />
-        <setting id="open.settings" type="action" label="Open Lambda Scrapers Settings" option="close" action="RunPlugin(plugin://script.module.lambdascrapers/?mode=LambdaSettings)" />
+        <setting id="module.provider" type="text" label="Powered by" default="Openscrapers Scrapers" visible="true" enable="false" />
+        <setting id="open.settings" type="action" label="Open Scrapers Settings" option="close" action="RunPlugin(plugin://script.module.openscrapers/?mode=OpenscrapersSettings)" />
         <setting type="lsep" label="Clear Providers Cache After Changing Scraper Provider" />
         <setting id="open.Settings.CacheProviders" type="action" label="Clear Providers Cache" option="close" action="RunPlugin(plugin://plugin.video.exodusredux/?action=clearAllCache)" />
     </category>

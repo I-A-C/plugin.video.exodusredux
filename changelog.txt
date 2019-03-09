@@ -1,4 +1,6 @@
 Exodus Redux Changelog:
+2.0.1
+- Replaced Lambdascraper with Openscrapers
 2.0.0
 - Rebased
 1.0.7

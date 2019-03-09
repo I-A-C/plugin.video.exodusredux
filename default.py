@@ -30,6 +30,10 @@ mode = params.get('mode')
 
 action = params.get('action')
 
+docu_category = params.get('docuCat')
+
+docu_watch = params.get('docuPlay')
+
 name = params.get('name')
 
 title = params.get('title')
@@ -261,7 +265,7 @@ elif action == 'tvSearchnew':
 elif action == 'tvSearchterm':
     from resources.lib.indexers import tvshows
     tvshows.tvshows().search_term(name)
-    
+
 elif action == 'tvPerson':
     from resources.lib.indexers import tvshows
     tvshows.tvshows().person()
@@ -378,6 +382,15 @@ elif action == 'download':
     try: downloader.download(name, image, sources.sources().sourcesResolve(json.loads(source)[0], True))
     except: pass
 
+elif action == 'docuHeaven':
+    from resources.lib.indexers import docu
+    if not docu_category == None:
+        docu.documentary().docu_list(docu_category)
+    elif not docu_watch == None:
+        docu.documentary().docu_play(docu_watch)
+    else:
+        docu.documentary().root()
+
 elif action == 'sectionItem':
     pass # Placeholder. This is a non-clickable menu item for notes, etc.
 
@@ -489,9 +502,9 @@ elif action == 'cfNavigator':
     navigator.navigator().cf()
 
 
-elif action == 'lambdascraperSettings':
+elif action == 'openscrapersSettings':
     from resources.lib.modules import control
-    control.openSettings('0.0', 'script.module.lambdascrapers')
+    control.openSettings('0.0', 'script.module.openscrapers')
 
 elif action == 'channels':
     from resources.lib.indexers import channels

@@ -20,7 +20,17 @@ from resources.lib.modules import log_utils
 from resources.lib.modules import control
 import threading
 
+addon_settings = xbmc.translatePath('special://userdata/addon_data/plugin.video.exodusredux/settings.xml')
+
 control.execute('RunPlugin(plugin://%s)' % control.get_plugin_url({'action': 'service'}))
+
+run2 = control.setting('first.info2')
+if run2 == '': run2 = 'true' #clean install scenerio
+if run2 == 'true':
+    import os
+    if os.path.exists(xbmc.translatePath(addon_settings)):
+        control.deleteFile(addon_settings)
+    control.setSetting(id='first.info2', value='false')
 
 def syncTraktLibrary():
     control.execute(
