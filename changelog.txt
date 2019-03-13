@@ -1,4 +1,7 @@
 Exodus Redux Changelog:
+2.0.3
+- Enabled My Lists by default
+- Added Greek + English provider setting option
 2.0.2
 - Fix IMDb watchlists in settings
 2.0.1
