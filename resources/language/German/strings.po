@@ -594,7 +594,7 @@ msgstr "Keine Streams verfügbar"
 
 msgctxt "#32402"
 msgid "Playback outside Exodus Redux is not allowed"
-msgstr "Eine Wiedergabe außerhalb von Placenta ist nicht erlaubt"
+msgstr "Eine Wiedergabe außerhalb von Exodus Redux ist nicht erlaubt"
 
 msgctxt "#32403"
 msgid "Download"

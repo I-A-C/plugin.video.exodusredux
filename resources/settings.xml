@@ -3,8 +3,8 @@
     <category label="32310">
         <setting id="appearance.alt" type="action" label="32311" default="-" option="close" action="RunPlugin(plugin://plugin.video.exodusredux/?action=artwork)" visible="!System.HasAddon(script.exodusredux.artwork)" />
         <setting id="appearance.1" type="select" label="32311" values="Exodus|Covenant|Incursion|Stealth|Exuary" default="Exodus" visible="System.HasAddon(script.exodusredux.artwork)" />
-        <setting id="api.language" type="select" label="32316" values="English|German|Polish|Spanish|German+English|Polish+English|Spanish+English" default="English" />
-        <setting id="providers.lang" type="select" label="32360" values="English|German|Polish|Spanish|German+English|Polish+English|Spanish+English" default="English" />
+        <setting id="api.language" type="select" label="32316" values="AUTO|English|Bulgarian|Chinese|Croatian|Czech|Danish|Dutch|Finnish|French|German|Greek|Hebrew|Hungarian|Italian|Japanese|Korean|Norwegian|Polish|Portuguese|Romanian|Russian|Serbian|Slovak|Slovenian|Spanish|Swedish|Thai|Turkish|Ukrainian" default="English" />
+        <setting id="providers.lang" type="select" label="32360" values="English|German|Greek|Polish|Spanish|German+English|Greek+English|Polish+English|Spanish+English" default="English" />
         <setting id="scrapers.timeout.1" type="slider" label="32312" default="30" range="10,60" option="int" />
         <setting id="trakt.user" type="text" default="" label="Trakt User:" enable="false" visible="true" />
         <setting id="indicators.alt" type="enum" label="32313" lvalues="32314|32315" default="1" visible="!eq(-1,)" />
