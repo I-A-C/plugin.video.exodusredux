@@ -9,9 +9,9 @@
         <setting id="trakt.user" type="text" default="" label="Trakt User:" enable="false" visible="true" />
         <setting id="indicators.alt" type="enum" label="32313" lvalues="32314|32315" default="1" visible="!eq(-1,)" />
         <setting id="indicators" type="enum" label="32313" lvalues="32314" default="0" visible="eq(-2,)" />
-        <setting id="lists.widget" type="enum" label="32329" lvalues="32302|32301" default="0" />
+        <setting id="lists.widget" type="enum" label="32329" lvalues="32302|32301" default="1" />
         <setting id="movie.widget" type="enum" label="32320" lvalues="32302|32321|32322|32323|32324|32580" default="4" />
-        <setting id="tv.widget.alt" type="enum" label="32325" lvalues="32302|32326|32327|32328" default="2" visible="!eq(-5,)" />
+        <setting id="tv.widget.alt" type="enum" label="32325" lvalues="32302|32326|32327|32328" default="3" visible="!eq(-5,)" />
         <setting id="tv.widget" type="enum" label="32325" lvalues="32302|32326" default="1" visible="eq(-6,)" />
         <setting id="prgr.sortorder" type="enum" label="32584" lvalues="32585|32586" default="1" visible="!eq(-7,)" />
         <setting id="fanart" type="bool" label="32318" default="true" />
