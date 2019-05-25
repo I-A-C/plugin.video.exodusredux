@@ -20,6 +20,7 @@
 import urlparse,sys,urllib
 from resources.lib.modules import log_utils
 from resources.lib.modules import control
+from resources.lib.modules import trakt
 import xbmcgui
 
 
@@ -72,27 +73,6 @@ windowedtrailer = params.get('windowedtrailer')
 windowedtrailer = int(windowedtrailer) if windowedtrailer in ("0","1") else 0
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 if action == None:
     from resources.lib.indexers import navigator
     from resources.lib.modules import cache
@@ -108,11 +88,6 @@ if action == None:
 
 
 
-
-
-
-
-
 elif action == 'newsNavigator':
     from resources.lib.indexers import navigator
     navigator.navigator().news()
@@ -120,6 +95,7 @@ elif action == 'newsNavigator':
 
 elif action == 'movieNavigator':
     from resources.lib.indexers import navigator
+    trakt.syncMovieResumePoints()
     navigator.navigator().movies()
 
 elif action == 'movieliteNavigator':
@@ -136,6 +112,7 @@ elif action == 'mymovieliteNavigator':
 
 elif action == 'tvNavigator':
     from resources.lib.indexers import navigator
+    trakt.syncEpisodeResumePoints()
     navigator.navigator().tvshows()
 
 elif action == 'tvliteNavigator':
