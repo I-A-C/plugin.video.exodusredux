@@ -12,4 +12,5 @@ ExodusRedux is a fork of Exodus. It has the same basic look and feel as the orig
 - Maud'Dib
 - Jewbmx
 - Team Supremacy
+- MetalJacketNL
 - and any others i may have missed!
